@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 62.5%;
+    position: relative;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Core styles */
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.row {
+    clear: both;
+}
+
+.col-1, 
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10, 
+.col-11,
+.col-12 {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.col-1 { width: 6.5%;}
+.col-2 {width: 15%;}
+.col-3 {width: 23.5%;}
+.col-4 {width: 32%;}
+.col-5 {width: 40.5;}
+.col-6 {width: 50%;}
+.col-7 {width: 57.5%;}
+.col-8 {width: 66%;}
+.col-9 {width: 74.5%;}
+.col-10 {width: 83%;}
+.col-11 {width: 91.5%;}
+.col-12 {width: 100%;}
+.col-13 {width: 120%;}
+/* /Core styles */
+
+
+/* header section */
+
+body {
+    font-family: sans-serif;
+}
+
+.main-header {
+    padding-top: 14px;
+}
+
+.main-header__brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand img {
+    width: 74px;
+    padding-left: 24px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+    background: transparent;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 14px;
+    
+}
+
+.main-navigation__item a {
+    color: black;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.main-navigation__item a:hover {
+    color: #003BB3;
+}
+
+.select {
+    padding: 5px 5px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-left: 200px;
+    background-color: rgb(233, 229, 229);
+    font-size: 14px;
+}
+
+.button i {
+    padding: 5px 5px ;
+    font-size: 14px;
+    background-color:  rgb(233, 229, 229);
+    border-radius: 30px;
+    border: none;
+}
+
+.button {
+    border: none;
+    margin-left: 5px;
+}
+/* /header section */
+
+/* Main header section */
+
+.main-header2 {
+    display: inline-block;
+    margin-left: 21px;
+    margin-top: 16px;
+    background-color: #f0f0f0;
+    padding-right: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    align-items: center;
+    font-size: 0.5px;
+    overflow: hidden;
+    overflow-x: auto;
+    margin-bottom: 14px;
+}
+
+.border a::after {
+    content: " ";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background: #585858;
+    margin: 0 8px;
+    margin-top: 13px;
+}
+
+.main-navigation__item2 {
+    display: inline-block;
+    padding-left: 10px;
+    color: #0000;
+}
+
+.main-navigation__item2 a {
+    color: #585858;
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: 12px;
+    display: flex;
+    position: relative;
+    line-height: 40px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.main-navigation__item2 a:hover {
+    color: #003BB3;
+}
+
+.main-navigation__item2 a:active {
+    background-color: #17206a;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    padding: 1px;
+}
+
+.curent {
+    background-color: #17206a;
+    color: white;
+    font-weight: 600;
+    line-height: 40px;
+    padding-right: 16px;
+}
+/* /Main header section */
+
+
+
+/* Main section */
+
+.container__main {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.big-news__image img { 
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.big-news__content h2 {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+.big-news__content h2:hover {
+    color: #003BB3;
+    transition: all 0.3s;
+}
+
+.big-news__content {
+    padding: 25px 25px;
+}
+
+.top-news {
+    background-color: #f2f2f2;
+    height: 350px;
+}
+
+.news-meta {
+    color: #8f8f8f;
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 20px;
+    background: url(https://kun.uz/assets/99110d40/img/calendar.svg) no-repeat center left;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+.top-news p {
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    line-height: 26px;
+}
+
+.top-news__content {
+    padding: 20px;
+}
+
+.top-news__small-items {
+    margin: 24px 0 0 0;
+}
+
+.small-news {
+    margin-bottom: 20px;
+}
+
+.small-news__image  {
+    width: 160px;
+    height: 108px;
+    min-width: 130px;
+    position: relative;
+    overflow: hidden;
+}
+
+.small-news__image img {
+    width: 100%;
+}
+
+.small-news__content {
+    padding: 10px;
+}
+
+.small-news__content p {
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.small-news p:hover {
+    color: #003BB3;
+}
+
+.block-title span{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.block-title span::before {
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #001088; 
+}
+
+.news {
+    margin-top: 10px;
+    margin-right: 14px;
+
+}
+
+.news img {
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+}
+
+.news a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 27px;
+    transition: 0.2 ease; 
+}
+
+.news a:hover {
+    transition: all 0.2s;
+    color: #003BB3;
+}
+
+.small-news__content {
+    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 41px;
+}
+
+/* right news  */
+
+.right-news {
+    padding-left: 25px;
+}
+
+.news-meta__1 {
+    color: rgb(147, 145, 145);
+    margin-bottom: 10px;
+    opacity: 0.8;
+    font-size: 12px;
+    padding-left: 17px;
+    background: url(https://kun.uz/assets/99110d40/img/calendar.svg) no-repeat center left;
+    background-size: contain;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.right-news__title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    color: black;
+}
+
+.right-news__content {
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(197, 197, 197, 0.8);
+    margin-bottom: 18px;
+}
+
+.right-news__title:hover {
+    color: #003BB3;
+}
+
+.right-news__button {
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background: url(https://kun.uz/assets/99110d40/img/silver-arrow-right.svg) no-repeat 92% center #f0f0f0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    border: none;
+    border-left: 2px solid #2246c5;
+}
+
+.right-news__button:hover {
+    background-color:  #eef2ff;
+}
+
+.main {
+    margin-bottom: 80px;
+}
+
+/* /main section */
+
+/* actual section */
+
+.title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    padding-left: 25px;
+}
+
+.title::before {
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #001088; 
+}
+
+
+.actual-title {
+    margin-top: 15px;
+    font-size: 22px;
+    line-height: 27px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.actual-news__img img {
+    width: 95%;
+    height: 100%;
+
+}
+
+.actual-news__content {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: black;
+    display: block;
+}
+
+.actual-news__img a,
+.actual-title:hover {
+    color: #003BB3;
+}
+
+
+/* right */
+
+.actual-right__img img {
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    margin-bottom: 8px;
+}
+
+.actual-right-news a  {
+    font-size: 16px;
+    line-height: 22px;
+    line-height: 26px;
+    color: #000;
+    font-weight: 700;
+}
+
+.actual-right-news {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.actual-right__news {
+    margin-top: -4px;
+}
+
+/* /actual section */
