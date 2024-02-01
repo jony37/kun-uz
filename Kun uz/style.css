@@ -585,6 +585,20 @@ a.interview-href {
     transition: all 0.2s;
 
 }
+
+.interview-post:hover {
+   
+   
+}
+
+.interview-shadow:hover {
+    box-shadow: 10px 16px 16px 5px rgb(0 0 0 / 20%);
+    height: 200px;
+    /* box-shadow: 5px 10px #888888: */
+    transition: all 0.8s;
+    transform: scale(1.035);
+}
+
 /* /Interview */
 
 /* hamas section */
@@ -869,13 +883,4 @@ footer {
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
 }
-
-
-
-
 /*/ FOOTER SECTION */
-
-
-
-
-
